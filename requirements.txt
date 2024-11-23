@@ -1,0 +1,20 @@
+re
+string
+emoji
+pandas
+nltk
+stopwordsiso
+BeautifulSoup (from bs4)
+sklearn
+wordcloud
+matplotlib
+seaborn
+numpy
+transformers
+torch
+pickle
+tqdm
+warnings
+gc
+os
+requests
