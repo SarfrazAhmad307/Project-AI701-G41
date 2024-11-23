@@ -2,6 +2,20 @@
 
 This repository contains resources, code, and models for multilingual hate speech detection using both Traditional Machine Learning (ML) methods and Large Language Models (LLMs). The datasets and code are structured to facilitate experimentation and evaluation for English, Hindi, and German languages.
 
+---
+
+## Pipelines
+
+### Traditional ML Pipeline
+
+![Traditional ML Pipeline](machine_learning_pipeline.png)
+
+### LLM Pipeline
+
+![LLM Pipeline](llm_pipeline.png)
+
+---
+
 ## Repository Structure
 
 The repository is organized as follows:
@@ -16,7 +30,7 @@ This directory contains datasets for hate speech detection in three languages: *
 
 ### 2. `Traditional_ML_Models` Directory
 
-This directory includes implementations of Traditional Machine Learning models for each language. Each language directory has contains following:
+This directory includes implementations of Traditional Machine Learning models for each language. Each language directory contains the following:
 
 - A Jupyter Notebook with code for preprocessing, training, and evaluation.
 - Saved ML models for reuse.
@@ -32,13 +46,15 @@ Subdirectories:
 This directory includes implementations of Large Language Models (LLMs) for hate speech detection. Each language has its own subdirectory containing:
 
 - A Jupyter Notebook with code for model fine-tuning and evaluation.
-- Model weights are not stored directly in the repository but are available at the following [Google Drive location](https://drive.google.com/drive/folders/1iO_jeF5b7u46cdfPA6vkSnkIX0K3WrtZ).
+- Model weights are not stored directly in the repository but are available at the following [Google Drive location](https://drive.google.com/drive/folders/1qxuv-IRUKcmFs2TYAt6P3oO29bRVHWo7?usp=sharing).
 
 Subdirectories:
 
 - `LLMs/English`: Contains code and Drive link for English model weights.
 - `LLMs/Hindi`: Contains code and Drive link for Hindi model weights.
 - `LLMs/German`: Contains code and Drive link for German model weights.
+
+---
 
 ## How to Use
 
